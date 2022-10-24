@@ -1,3 +1,6 @@
+# Md. Bokhtiar Nadeem Shawon
+# Roll-2001
+# IIT-JU
 ban="EMPLOYEE MANAGEMENT"
 if [ ! -n "$(dpkg -l | grep sysvbanner | awk -F ' ' '{print $2}')" ]; then
     sudo apt install sysvbanner
